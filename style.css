@@ -171,10 +171,7 @@ section {
     font-size: 1.1rem;
 }
 
-/* ---------------------------------- */
-/* ----- Sekcja Kontakt (bez zmian) ------ */
-/* Twój CSS był poprawny, problem był w HTML */
-/* ---------------------------------- */
+/* ----- Sekcja Kontakt ------ */
 
 .kontakt-container {
     display: grid;
@@ -236,12 +233,12 @@ section {
     margin-top: 0;
     height: 100%;
     width: 100%;
-    border-radius: 8px; /* DODANO: Ładniejsze rogi dla mapy */
-    overflow: hidden; /* DODANO: Wymuszenie ładnych rogów */
+    border-radius: 8px; /* Ładniejsze rogi dla mapy */
+    overflow: hidden; /* Wymuszenie ładnych rogów */
 }
 .mapa iframe {
     height: 100%;
-    width: 100%; /* DODANO: Zapewnienie pełnej szerokości */
+    width: 100%; /* Zapewnienie pełnej szerokości */
     min-height: 450px;
 }
 
@@ -280,8 +277,6 @@ section {
 }
 
 /* ----- Przyciski CTA (Call to Action) ----- */
-/* DODANO: Ten blok był w moim poprzednim pliku, ale w Twoim go brakowało */
-/* Jest on potrzebny dla przycisku w sekcji Start */
 .cta-button {
     display: inline-block;
     background: var(--primary-color);
@@ -298,14 +293,14 @@ section {
     transform: scale(1.05);
 }
 
-/* ----- Stopka (bez zmian) ----- */
+/* ----- Stopka ----- */
 footer {
     background: var(--dark-color);
     color: var(--light-color);
     text-align: center;
     padding: 3rem 0;
-    position: relative; /* DODANO: Dla pewności, że jest w normalnym przepływie */
-    z-index: 10; /* DODANO: Dla pewności, że jest nad tłem */
+    position: relative; /* Dla pewności, że jest w normalnym przepływie */
+    z-index: 10; /* Dla pewności, że jest nad tłem */
 }
 footer p {
     font-size: 0.9rem;
@@ -324,14 +319,13 @@ footer a {
     }
     .nav-logo { margin-bottom: 1rem; }
     
-    /* Prośba nr 1: POPRAWKA dla menu */
     .nav-menu {
         margin-bottom: 1rem;
-        flex-wrap: wrap; /* DODANO: Zawijanie linków */
-        justify-content: center; /* DODANO: Centrowanie */
+        flex-wrap: wrap; /* Zawijanie linków */
+        justify-content: center; /* Centrowanie */
     }
     .nav-menu li {
-        margin: 0.3rem 0.5rem; /* ZMIENIONO: Lepsze marginesy przy zawijaniu */
+        margin: 0.3rem 0.5rem; /* Lepsze marginesy przy zawijaniu */
     }
 
     /* Rozmiary tekstu */
@@ -365,7 +359,7 @@ footer a {
 
 
 /* ---------------------------------- */
-/* Prośba nr 3 i 4: NOWY BLOK - Justowanie tekstu */
+/* NOWY BLOK - Justowanie tekstu */
 /* ---------------------------------- */
 .o-mnie-text p,
 #terapia p {
@@ -374,8 +368,7 @@ footer a {
 
 
 /* ---------------------------------- */
-/* Prośba nr 7: NOWY BLOK - Style dla Banera Cookie */
-/* (Brakowało ich w Twoim pliku) */
+/* NOWY BLOK - Style dla Banera Cookie */
 /* ---------------------------------- */
 #cookie-banner {
     position: fixed;
@@ -416,7 +409,7 @@ footer a {
     font-size: 0.9rem;
     border: none;
     cursor: pointer;
-    white-space: nowrap; /* Zapobiega łamaniu tekstu "Rozumiem" */
+    white-space: nowrap; /* Zapobiega łamaniu tekstu */
     transition: background-color 0.3s ease;
 }
 
@@ -434,4 +427,5 @@ footer a {
     #cookie-banner p {
         margin-bottom: 1rem; /* Odstęp od przycisku na mobilce */
     }
+
 }
